@@ -1,0 +1,40 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local data
+data/parquets/
+
+# Generated outputs
+outputs/**
+!outputs/README.md
+!outputs/feature_build/
+outputs/feature_build/**
+!outputs/feature_build/README.md
+!outputs/feature_build/tfidf_build_metadata.json
+!outputs/models/
+outputs/models/**
+!outputs/models/README.md
+!outputs/final_identity_hate_prediction_exports_summary.csv

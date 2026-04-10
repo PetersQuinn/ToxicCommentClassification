@@ -1,0 +1,16 @@
+{
+  "variant_name": "binary_severe_toxic",
+  "task_type": "binary",
+  "target_label": "severe_toxic",
+  "selection_metric": "validation_average_precision",
+  "model_name": "distilbert-base-uncased",
+  "epochs": 1,
+  "train_batch_size": 16,
+  "eval_batch_size": 32,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "train_rows": 135635,
+  "val_rows": 23936,
+  "test_labeled_rows": 63978,
+  "test_unlabeled_rows": 153164
+}

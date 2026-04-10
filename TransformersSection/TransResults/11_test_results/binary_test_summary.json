@@ -1,0 +1,76 @@
+{
+  "model_family": "binary",
+  "graded_against": "test_labeled_cleaned.parquet",
+  "primary_metric": "average_precision",
+  "mean_average_precision_across_binary_models": 0.6440112268508875,
+  "mean_roc_auc_across_binary_models": 0.9814477826602469,
+  "mean_f1_at_0_5_across_binary_models": 0.5914694709127197,
+  "per_label": [
+    {
+      "model_family": "binary",
+      "label": "toxic",
+      "average_precision": 0.7967387763951077,
+      "roc_auc": 0.9705306212165772,
+      "precision_at_0_5": 0.5651571656899308,
+      "recall_at_0_5": 0.870935960591133,
+      "f1_at_0_5": 0.6854927302100161,
+      "positive_rate_true": 0.09518897120885304,
+      "positive_rate_pred_at_0_5": 0.14669105004845415
+    },
+    {
+      "model_family": "binary",
+      "label": "severe_toxic",
+      "average_precision": 0.3376288592521979,
+      "roc_auc": 0.9854061665769339,
+      "precision_at_0_5": 0.4074074074074074,
+      "recall_at_0_5": 0.35967302452316074,
+      "f1_at_0_5": 0.38205499276411,
+      "positive_rate_true": 0.0057363468692363,
+      "positive_rate_pred_at_0_5": 0.00506424083278627
+    },
+    {
+      "model_family": "binary",
+      "label": "obscene",
+      "average_precision": 0.7771188557186623,
+      "roc_auc": 0.9769527919232288,
+      "precision_at_0_5": 0.5761182568631216,
+      "recall_at_0_5": 0.813058791655378,
+      "f1_at_0_5": 0.6743820224719101,
+      "positive_rate_true": 0.05769170652411767,
+      "positive_rate_pred_at_0_5": 0.08141861264809779
+    },
+    {
+      "model_family": "binary",
+      "label": "threat",
+      "average_precision": 0.5304504460636297,
+      "roc_auc": 0.9905397590472483,
+      "precision_at_0_5": 0.644927536231884,
+      "recall_at_0_5": 0.4218009478672986,
+      "f1_at_0_5": 0.5100286532951289,
+      "positive_rate_true": 0.003298008690487355,
+      "positive_rate_pred_at_0_5": 0.0021569914658163742
+    },
+    {
+      "model_family": "binary",
+      "label": "insult",
+      "average_precision": 0.7544504352224406,
+      "roc_auc": 0.9753765942550812,
+      "precision_at_0_5": 0.591855410661176,
+      "recall_at_0_5": 0.7548876568427196,
+      "f1_at_0_5": 0.6635034624262631,
+      "positive_rate_true": 0.053565288067773296,
+      "positive_rate_pred_at_0_5": 0.06832036012379256
+    },
+    {
+      "model_family": "binary",
+      "label": "identity_hate",
+      "average_precision": 0.6676799884532869,
+      "roc_auc": 0.9898807629424115,
+      "precision_at_0_5": 0.5886610373944512,
+      "recall_at_0_5": 0.6853932584269663,
+      "f1_at_0_5": 0.6333549643088904,
+      "positive_rate_true": 0.011128825533777236,
+      "positive_rate_pred_at_0_5": 0.012957579167838944
+    }
+  ]
+}

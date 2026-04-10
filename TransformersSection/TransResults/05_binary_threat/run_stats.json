@@ -1,0 +1,21 @@
+{
+  "variant_name": "binary_threat",
+  "task_type": "binary",
+  "target_label": "threat",
+  "train_rows": 135635,
+  "val_rows": 23936,
+  "test_rows": 63978,
+  "epochs": 1,
+  "train_batch_size": 16,
+  "eval_batch_size": 32,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "total_train_seconds": 174.45232435499975,
+  "avg_epoch_seconds": 165.44967056099995,
+  "samples_per_second": 777.4903573310444,
+  "max_gpu_memory_mb": 2521.8330078125,
+  "parameter_count": 66954241,
+  "trainable_parameter_count": 66954241,
+  "validation_main_metric": 0.463051633889032,
+  "test_main_metric": 0.5304504460636297
+}

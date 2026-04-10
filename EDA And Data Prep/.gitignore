@@ -1,0 +1,53 @@
+# Python cache and test clutter
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+
+# Notebook and temp clutter
+.ipynb_checkpoints/
+notebooks/
+*.log
+*.tmp
+*.temp
+
+# Local environments and editor files
+.venv/
+venv/
+env/
+ENV/
+.idea/
+.vscode/
+.python-version
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local raw data
+data/*.csv
+!data/README.md
+
+# Generated cleaned data
+outputs/03_cleaned_data/*.parquet
+!outputs/03_cleaned_data/README.md
+
+# Generated tabular artifacts
+outputs/04_option_a_tabular/*.parquet
+outputs/04_option_a_tabular/diagnostics/*.parquet
+outputs/04_option_a_tabular/matrices/
+outputs/04_option_a_tabular/metadata/*_row_alignment.csv
+!outputs/04_option_a_tabular/README.md
+!outputs/04_option_a_tabular/diagnostics/identity_group_counts_train.csv
+!outputs/04_option_a_tabular/metadata/dense_feature_dictionary.csv
+!outputs/04_option_a_tabular/metadata/tfidf_metadata.json
+
+# Removed branches that do not belong in this section
+outputs/05_option_c_hybrid/
+outputs/06_option_b_transformer/
+outputs/07_figures/fairness/
+outputs/07_figures/transformer/
+outputs/08_reports/
+
+# Local scratch files
+QPEDACharts/
+test.py

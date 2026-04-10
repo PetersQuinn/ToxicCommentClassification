@@ -1,0 +1,134 @@
+# === PYTHON CACHE & ENVIRONMENTS ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+pytest-cache-files-*/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+.python-version
+
+# === JUPYTER/NOTEBOOK ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*_files/
+
+# === OS & EDITOR CLUTTER ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini
+.vscode/
+.idea/
+
+# === TEMPORARY FILES ===
+*.log
+*.tmp
+*.temp
+*.bak
+
+# === LOCAL DATA & BINARY FILES ===
+# Raw data files and local data copies
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Data directories stay visible (for structure), but files inside are ignored by *.csv rules above
+!data/
+!data/README.md
+!*/data/
+!*/data/README.md
+!*/data/parquets/
+!*/data/parquets/README.md
+
+# === TRAINING ARTIFACTS & CHECKPOINTS ===
+# Model checkpoints and weights  
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoint-*/
+best_checkpoint/
+
+# Training state and optimization files
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state*.pth
+events.out.tfevents*
+
+# Bulk prediction exports
+*predictions*.csv
+reference_*.joblib
+
+# === EXPERIMENT TRACKING & COLAB ===
+wandb/
+runs/
+mlruns/
+sample_data/
+content/
+drive-download-*/
+.colab/
+
+# === LOCAL EXPLORATION & SCRATCH ===
+QPEDACharts/
+notebooks/
+
+# === LIGHTWEIGHT RESULTS WORTH KEEPING ===
+# Override ignored extensions for small summary/metadata files that communicate results.
+#README and markdown files are kept by default, so we whitelist specific data/config files:
+
+# Metadata and summary JSONs
+!*.json
+!**/*.json
+
+# Summary tables (small CSVs with results, metadata, diagnostics)
+!*_summary.csv
+!*_summary.md
+!**/*_summary.csv
+!**/*_summary.md
+!*_metadata.csv
+!*_metadata.json
+!**/*_metadata.csv
+!**/*_metadata.json
+!*_metadata.txt
+
+# Data audit and EDA results
+!*_audit.csv
+!*_audit.json
+!*_eda.csv
+!*_eda.md
+!feature_build/
+!feature_build/**
+!audit/
+!audit/**
+!01_data_audit/
+!01_data_audit/**
+!02_eda/
+!02_eda/**
+
+# Plots and visualizations
+!*.png
+!*.jpg
+!*.jpeg
+
+# Key output/result directories for review
+!outputs/
+!TransResults/
+!**/README.md
+

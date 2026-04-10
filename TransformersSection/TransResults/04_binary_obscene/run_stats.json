@@ -1,0 +1,21 @@
+{
+  "variant_name": "binary_obscene",
+  "task_type": "binary",
+  "target_label": "obscene",
+  "train_rows": 135635,
+  "val_rows": 23936,
+  "test_rows": 63978,
+  "epochs": 1,
+  "train_batch_size": 16,
+  "eval_batch_size": 32,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "total_train_seconds": 174.37673327699986,
+  "avg_epoch_seconds": 165.32044138699985,
+  "samples_per_second": 777.827393890571,
+  "max_gpu_memory_mb": 2521.8330078125,
+  "parameter_count": 66954241,
+  "trainable_parameter_count": 66954241,
+  "validation_main_metric": 0.9146080950166462,
+  "test_main_metric": 0.7771188557186623
+}

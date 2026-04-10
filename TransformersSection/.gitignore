@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Notebook / Colab
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+.colab/
+sample_data/
+wandb/
+runs/
+mlruns/
+content/
+drive-download-*/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Local data copies and exports
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.joblib
+*.npy
+*.npz
+data/csvs/
+
+# Old local EDA exports
+QPEDACharts/
+
+# Transformer training artifacts
+TransResults/**/best_checkpoint/
+TransResults/**/checkpoint-*/
+TransResults/**/*.bin
+TransResults/**/*.pt
+TransResults/**/*.pth
+TransResults/**/*.ckpt
+TransResults/**/*.safetensors
+TransResults/**/trainer_state.json
+TransResults/**/optimizer.pt
+TransResults/**/scheduler.pt
+TransResults/**/rng_state*.pth
+TransResults/**/events.out.tfevents*
+
+# Bulky row-level prediction exports
+TransResults/**/*predictions*.csv
+
+# Keep lightweight docs in the otherwise local-only data folders
+!data/README.md
+!data/parquets/
+!data/parquets/README.md

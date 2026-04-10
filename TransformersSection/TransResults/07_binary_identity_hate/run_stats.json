@@ -1,0 +1,21 @@
+{
+  "variant_name": "binary_identity_hate",
+  "task_type": "binary",
+  "target_label": "identity_hate",
+  "train_rows": 135635,
+  "val_rows": 23936,
+  "test_rows": 63978,
+  "epochs": 1,
+  "train_batch_size": 16,
+  "eval_batch_size": 32,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "total_train_seconds": 175.0917334159999,
+  "avg_epoch_seconds": 165.77951907700026,
+  "samples_per_second": 774.6510777738731,
+  "max_gpu_memory_mb": 2521.8330078125,
+  "parameter_count": 66954241,
+  "trainable_parameter_count": 66954241,
+  "validation_main_metric": 0.5687367446420807,
+  "test_main_metric": 0.6676799884532869
+}

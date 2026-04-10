@@ -1,0 +1,11 @@
+{
+  "candidate_names": [
+    "word_unigram_balanced",
+    "word_bigram_balanced",
+    "word_bigram_high_vocab",
+    "word_bigram_conservative",
+    "char_wb_3_5"
+  ],
+  "reference_vectorizer_name": "word_bigram_high_vocab",
+  "text_column": "comment_text_tfidf"
+}

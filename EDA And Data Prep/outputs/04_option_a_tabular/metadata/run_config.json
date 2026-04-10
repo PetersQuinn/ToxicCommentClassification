@@ -1,0 +1,23 @@
+{
+  "project_root": "C:\\Users\\quint\\OneDrive\\Desktop\\Python\\IDS\\IDS701\\groupProject",
+  "data_dir": "C:\\Users\\quint\\OneDrive\\Desktop\\Python\\IDS\\IDS701\\groupProject\\data",
+  "outputs_dir": "C:\\Users\\quint\\OneDrive\\Desktop\\Python\\IDS\\IDS701\\groupProject\\outputs",
+  "train_path": "C:\\Users\\quint\\OneDrive\\Desktop\\Python\\IDS\\IDS701\\groupProject\\data\\train.csv",
+  "test_path": "C:\\Users\\quint\\OneDrive\\Desktop\\Python\\IDS\\IDS701\\groupProject\\data\\test.csv",
+  "test_labels_path": "C:\\Users\\quint\\OneDrive\\Desktop\\Python\\IDS\\IDS701\\groupProject\\data\\test_labels.csv",
+  "sample_submission_path": "C:\\Users\\quint\\OneDrive\\Desktop\\Python\\IDS\\IDS701\\groupProject\\data\\sample_submission.csv",
+  "labels": [
+    "toxic",
+    "severe_toxic",
+    "obscene",
+    "threat",
+    "insult",
+    "identity_hate"
+  ],
+  "text_column": "comment_text",
+  "id_column": "id",
+  "seed": 705,
+  "tfidf_max_features": 50000,
+  "tfidf_min_df": 5,
+  "tfidf_max_df": 0.95
+}

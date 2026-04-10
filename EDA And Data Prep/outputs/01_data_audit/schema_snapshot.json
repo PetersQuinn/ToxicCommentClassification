@@ -1,0 +1,78 @@
+{
+  "train": {
+    "rows": 159571,
+    "columns": [
+      "id",
+      "comment_text",
+      "toxic",
+      "severe_toxic",
+      "obscene",
+      "threat",
+      "insult",
+      "identity_hate"
+    ],
+    "dtypes": {
+      "id": "object",
+      "comment_text": "object",
+      "toxic": "int64",
+      "severe_toxic": "int64",
+      "obscene": "int64",
+      "threat": "int64",
+      "insult": "int64",
+      "identity_hate": "int64"
+    }
+  },
+  "test": {
+    "rows": 153164,
+    "columns": [
+      "id",
+      "comment_text"
+    ],
+    "dtypes": {
+      "id": "object",
+      "comment_text": "object"
+    }
+  },
+  "test_labels": {
+    "rows": 153164,
+    "columns": [
+      "id",
+      "toxic",
+      "severe_toxic",
+      "obscene",
+      "threat",
+      "insult",
+      "identity_hate"
+    ],
+    "dtypes": {
+      "id": "object",
+      "toxic": "int64",
+      "severe_toxic": "int64",
+      "obscene": "int64",
+      "threat": "int64",
+      "insult": "int64",
+      "identity_hate": "int64"
+    }
+  },
+  "sample_submission": {
+    "rows": 153164,
+    "columns": [
+      "id",
+      "toxic",
+      "severe_toxic",
+      "obscene",
+      "threat",
+      "insult",
+      "identity_hate"
+    ],
+    "dtypes": {
+      "id": "object",
+      "toxic": "float64",
+      "severe_toxic": "float64",
+      "obscene": "float64",
+      "threat": "float64",
+      "insult": "float64",
+      "identity_hate": "float64"
+    }
+  }
+}

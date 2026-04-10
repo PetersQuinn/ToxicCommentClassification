@@ -1,0 +1,21 @@
+{
+  "variant_name": "multilabel_distilbert_cv",
+  "task_type": "multilabel",
+  "target_label": null,
+  "train_rows": 159571,
+  "val_rows": 159571,
+  "test_rows": 63978,
+  "epochs": 3,
+  "train_batch_size": 16,
+  "eval_batch_size": 32,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "total_train_seconds": 1642.632747648,
+  "avg_epoch_seconds": 129.96197754677783,
+  "samples_per_second": 1748.581966427167,
+  "max_gpu_memory_mb": 2781.27587890625,
+  "parameter_count": 66958086,
+  "trainable_parameter_count": 66958086,
+  "validation_main_metric": 0.6929096954720659,
+  "test_main_metric": 0.680587031044503
+}
