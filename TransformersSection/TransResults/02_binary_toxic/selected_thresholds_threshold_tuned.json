@@ -1,0 +1,10 @@
+{
+  "variant_name": "binary_toxic",
+  "task_type": "binary",
+  "threshold_tuning_status": "validation_predictions_missing_left_at_0_5",
+  "threshold_selection_objective": "maximize_validation_f1_tie_break_to_0_5",
+  "threshold_search_grid": "np.linspace(0.05, 0.95, 91)",
+  "selected_thresholds": {
+    "toxic": 0.5
+  }
+}

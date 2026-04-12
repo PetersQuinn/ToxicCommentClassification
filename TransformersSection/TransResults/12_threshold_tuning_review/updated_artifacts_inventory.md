@@ -1,0 +1,80 @@
+# Updated Artifacts Inventory
+
+## Created files
+- `TransformersSection\postprocess_transformer_thresholds.py`
+- `TransformersSection\TransResults\01_multilabel_distilbert\selected_thresholds_threshold_tuned.json`
+- `TransformersSection\TransResults\01_multilabel_distilbert\test_labeled_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\01_multilabel_distilbert\test_labeled_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\01_multilabel_distilbert\test_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\01_multilabel_distilbert\validation_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\01_multilabel_distilbert\validation_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\01_multilabel_distilbert\validation_threshold_search_threshold_tuned.csv`
+- `TransformersSection\TransResults\02_binary_toxic\selected_thresholds_threshold_tuned.json`
+- `TransformersSection\TransResults\02_binary_toxic\test_labeled_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\02_binary_toxic\test_labeled_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\02_binary_toxic\test_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\03_binary_severe_toxic\selected_thresholds_threshold_tuned.json`
+- `TransformersSection\TransResults\03_binary_severe_toxic\test_labeled_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\03_binary_severe_toxic\test_labeled_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\03_binary_severe_toxic\test_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\03_binary_severe_toxic\validation_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\03_binary_severe_toxic\validation_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\03_binary_severe_toxic\validation_threshold_search_threshold_tuned.csv`
+- `TransformersSection\TransResults\04_binary_obscene\selected_thresholds_threshold_tuned.json`
+- `TransformersSection\TransResults\04_binary_obscene\test_labeled_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\04_binary_obscene\test_labeled_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\04_binary_obscene\test_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\04_binary_obscene\validation_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\04_binary_obscene\validation_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\04_binary_obscene\validation_threshold_search_threshold_tuned.csv`
+- `TransformersSection\TransResults\05_binary_threat\selected_thresholds_threshold_tuned.json`
+- `TransformersSection\TransResults\05_binary_threat\test_labeled_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\05_binary_threat\test_labeled_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\05_binary_threat\test_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\05_binary_threat\validation_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\05_binary_threat\validation_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\05_binary_threat\validation_threshold_search_threshold_tuned.csv`
+- `TransformersSection\TransResults\06_binary_insult\selected_thresholds_threshold_tuned.json`
+- `TransformersSection\TransResults\06_binary_insult\test_labeled_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\06_binary_insult\test_labeled_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\06_binary_insult\validation_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\06_binary_insult\validation_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\06_binary_insult\validation_threshold_search_threshold_tuned.csv`
+- `TransformersSection\TransResults\07_binary_identity_hate\selected_thresholds_threshold_tuned.json`
+- `TransformersSection\TransResults\07_binary_identity_hate\test_labeled_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\07_binary_identity_hate\test_labeled_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\07_binary_identity_hate\test_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\07_binary_identity_hate\validation_metrics_threshold_tuned.json`
+- `TransformersSection\TransResults\07_binary_identity_hate\validation_predictions_threshold_tuned.csv`
+- `TransformersSection\TransResults\07_binary_identity_hate\validation_threshold_search_threshold_tuned.csv`
+- `TransformersSection\TransResults\08_experiment_summary\model_comparison_summary_threshold_tuned.csv`
+- `TransformersSection\TransResults\08_experiment_summary\model_comparison_summary_threshold_tuned.json`
+- `TransformersSection\TransResults\10_overall_summary\overall_handoff_summary_threshold_tuned.json`
+- `TransformersSection\TransResults\11_test_results\binary_test_metrics_by_label_threshold_tuned.csv`
+- `TransformersSection\TransResults\11_test_results\binary_test_summary_threshold_tuned.json`
+- `TransformersSection\TransResults\11_test_results\f1_by_label_multilabel_vs_binary_threshold_tuned.png`
+- `TransformersSection\TransResults\11_test_results\multilabel_test_metrics_by_label_threshold_tuned.csv`
+- `TransformersSection\TransResults\11_test_results\multilabel_test_summary_threshold_tuned.json`
+- `TransformersSection\TransResults\11_test_results\multilabel_vs_binary_test_comparison_threshold_tuned.csv`
+- `TransformersSection\TransResults\11_test_results\overall_test_results_summary_threshold_tuned.json`
+- `TransformersSection\TransResults\12_threshold_tuning_review\before_vs_after_metrics.csv`
+- `TransformersSection\TransResults\12_threshold_tuning_review\before_vs_after_summary.md`
+- `TransformersSection\TransResults\12_threshold_tuning_review\README.md`
+- `TransformersSection\TransResults\12_threshold_tuning_review\threshold_tuning_method.md`
+- `TransformersSection\TransResults\12_threshold_tuning_review\updated_artifacts_inventory.md`
+- `TransformersSection\TransResults\12_threshold_tuning_review\what_changed.md`
+
+## Modified files
+- `text_data_results_summary.md`
+- `text_data_results_quick_hits.md`
+
+## Untouched important files
+- `TransformersSection\TransResults\08_experiment_summary\model_comparison_summary.csv`
+- `TransformersSection\TransResults\08_experiment_summary\model_comparison_summary.json`
+- `TransformersSection\TransResults\10_overall_summary\overall_handoff_summary.json`
+- `TransformersSection\TransResults\11_test_results\multilabel_test_summary.json`
+- `TransformersSection\TransResults\11_test_results\binary_test_summary.json`
+- `TransformersSection\TransResults\11_test_results\overall_test_results_summary.json`
+
+## Expected but missing files
+- `TransformersSection\TransResults\02_binary_toxic\validation_predictions.csv`

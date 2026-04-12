@@ -1,0 +1,98 @@
+{
+  "model_family": "multilabel",
+  "graded_against": "test_labeled_cleaned.parquet",
+  "primary_metric": "mean_average_precision",
+  "threshold_selection_objective": "maximize_validation_f1_tie_break_to_0_5",
+  "selected_thresholds": {
+    "toxic": 0.49999999999999994,
+    "severe_toxic": 0.24999999999999994,
+    "obscene": 0.4099999999999999,
+    "threat": 0.3,
+    "insult": 0.37999999999999995,
+    "identity_hate": 0.30999999999999994
+  },
+  "mean_average_precision": 0.680587031044503,
+  "mean_roc_auc": 0.9852625356888168,
+  "micro_f1_at_operating_threshold": 0.6765079454684015,
+  "macro_f1_at_operating_threshold": 0.611042367088549,
+  "per_label": [
+    {
+      "model_family": "multilabel",
+      "label": "toxic",
+      "selected_threshold": 0.49999999999999994,
+      "average_precision": 0.8081444563645622,
+      "roc_auc": 0.972259374253981,
+      "precision_at_operating_threshold": 0.552959028831563,
+      "recall_at_operating_threshold": 0.8975369458128079,
+      "f1_at_operating_threshold": 0.684319248826291,
+      "positive_rate_true": 0.09518897120885304,
+      "positive_rate_pred_at_operating_threshold": 0.15450623651880332,
+      "threshold_tuning_status": "threshold_tuned_from_validation"
+    },
+    {
+      "model_family": "multilabel",
+      "label": "severe_toxic",
+      "selected_threshold": 0.24999999999999994,
+      "average_precision": 0.3583527688451362,
+      "roc_auc": 0.9905872020061309,
+      "precision_at_operating_threshold": 0.29457364341085274,
+      "recall_at_operating_threshold": 0.7247956403269755,
+      "f1_at_operating_threshold": 0.4188976377952756,
+      "positive_rate_true": 0.0057363468692363,
+      "positive_rate_pred_at_operating_threshold": 0.014114226765450624,
+      "threshold_tuning_status": "threshold_tuned_from_validation"
+    },
+    {
+      "model_family": "multilabel",
+      "label": "obscene",
+      "selected_threshold": 0.4099999999999999,
+      "average_precision": 0.805129626428519,
+      "roc_auc": 0.9805751628295714,
+      "precision_at_operating_threshold": 0.6217291186937408,
+      "recall_at_operating_threshold": 0.8046599837442427,
+      "f1_at_operating_threshold": 0.7014643363249882,
+      "positive_rate_true": 0.05769170652411767,
+      "positive_rate_pred_at_operating_threshold": 0.07466629153771609,
+      "threshold_tuning_status": "threshold_tuned_from_validation"
+    },
+    {
+      "model_family": "multilabel",
+      "label": "threat",
+      "selected_threshold": 0.3,
+      "average_precision": 0.6219727704813056,
+      "roc_auc": 0.9967009633784488,
+      "precision_at_operating_threshold": 0.3949771689497717,
+      "recall_at_operating_threshold": 0.8199052132701422,
+      "f1_at_operating_threshold": 0.5331278890600925,
+      "positive_rate_true": 0.003298008690487355,
+      "positive_rate_pred_at_operating_threshold": 0.006846103348025884,
+      "threshold_tuning_status": "threshold_tuned_from_validation"
+    },
+    {
+      "model_family": "multilabel",
+      "label": "insult",
+      "selected_threshold": 0.37999999999999995,
+      "average_precision": 0.7857857646186007,
+      "roc_auc": 0.9803361506394273,
+      "precision_at_operating_threshold": 0.6364734299516909,
+      "recall_at_operating_threshold": 0.768894076451707,
+      "f1_at_operating_threshold": 0.6964450905246465,
+      "positive_rate_true": 0.053565288067773296,
+      "positive_rate_pred_at_operating_threshold": 0.06470974397449124,
+      "threshold_tuning_status": "threshold_tuned_from_validation"
+    },
+    {
+      "model_family": "multilabel",
+      "label": "identity_hate",
+      "selected_threshold": 0.30999999999999994,
+      "average_precision": 0.7041367995288943,
+      "roc_auc": 0.991116361025341,
+      "precision_at_operating_threshold": 0.6015228426395939,
+      "recall_at_operating_threshold": 0.6657303370786517,
+      "f1_at_operating_threshold": 0.632,
+      "positive_rate_true": 0.011128825533777236,
+      "positive_rate_pred_at_operating_threshold": 0.012316733877270312,
+      "threshold_tuning_status": "threshold_tuned_from_validation"
+    }
+  ]
+}

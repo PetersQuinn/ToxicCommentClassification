@@ -1,0 +1,10 @@
+{
+  "variant_name": "binary_threat",
+  "task_type": "binary",
+  "threshold_tuning_status": "threshold_tuned_from_validation",
+  "threshold_selection_objective": "maximize_validation_f1_tie_break_to_0_5",
+  "threshold_search_grid": "np.linspace(0.05, 0.95, 91)",
+  "selected_thresholds": {
+    "threat": 0.49999999999999994
+  }
+}
