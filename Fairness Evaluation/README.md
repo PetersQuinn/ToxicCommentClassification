@@ -15,7 +15,7 @@ This notebook performs a structured subgroup analysis by:
 * Comparing **False Positive Rate (FPR)** and **False Negative Rate (FNR)** across models
 * Exporting results for reporting and visualization
 
-This directly supports the project’s fairness objective of identifying **systematic bias in toxicity detection**, particularly for identity-related language fileciteturn0file1.
+This directly supports the project’s fairness objective of identifying **systematic bias in toxicity detection**, particularly for identity-related language.
 
 ---
 
